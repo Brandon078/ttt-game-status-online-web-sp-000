@@ -25,11 +25,8 @@ end
 
 def full?(board)
   board.all? do |token|
-  if token == "X" || token = "O"
-  else
-    token.reject
+    token == "X" || token = "O"
   end
-end
 end
 
 def draw?(board)
