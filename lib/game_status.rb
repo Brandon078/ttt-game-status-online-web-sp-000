@@ -25,7 +25,7 @@ end
 
 def full?(board)
   board.any? do |token|
-    token = " "
+    token == "X" || token = "O"
   end
 end
 
