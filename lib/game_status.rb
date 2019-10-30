@@ -29,6 +29,7 @@ def full?(board)
       True
     else
       !board == false
+    end
   end
 end
 
