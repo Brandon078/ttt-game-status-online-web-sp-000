@@ -30,6 +30,7 @@ def full?(board)
     token.reject
   end
 end
+end
 
 def draw?(board)
   full?(board) && !won?(board)
