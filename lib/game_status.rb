@@ -39,6 +39,7 @@ end
 
 def winner(board)
   if won?(board)
-    puts board[combo]
+    WIN_COMBINATIONS.detect
+    puts token
   end
 end
