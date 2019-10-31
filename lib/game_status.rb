@@ -28,7 +28,7 @@ def full?(board)
     if token == "X" || token = "O"
     else board.reject do |token|
       token == " "
-
+    end
   end
 end
 
