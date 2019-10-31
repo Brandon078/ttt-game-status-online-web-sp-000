@@ -38,7 +38,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) = combo
-    puts token
+  if winning_combo = won?(board)
+    board[winning_combo.first]
   end
 end
