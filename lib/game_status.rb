@@ -37,7 +37,7 @@ def over?(board)
   full?(board) || won?(board)
 end
 
-def winner(board)
+def winner(board, token)
   if WIN_COMBINATIONS == won?(board)
     board[WIN_COMBINATIONS.first]
   end
