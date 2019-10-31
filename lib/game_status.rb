@@ -24,8 +24,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? do |token|
-    token == "X" || token = "O" == !board
+  board.each do |token|
+    token == "X" || token = "O"
   end
 end
 
