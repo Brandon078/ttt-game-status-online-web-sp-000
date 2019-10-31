@@ -36,3 +36,6 @@ end
 def over?(board)
   full?(board) || won?(board)
 end
+
+def winner(board)
+  if WIN_COMBINATIONS = won?(board)
